@@ -2,9 +2,153 @@
 
 /* --- YOUR CODE STARTS HERE --- */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+/** {
+    box-sizing: border-box;
+}*/
+
+[class*="col-"] {
+    float: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
 
 
+
+.container {
+  width: 357px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #cfcfcf;
+  color: #2d2d2d;
+}
+
+.header,
+.footer {
+  padding: 10px 20px;
+  height: 22px;
+  border-bottom: 1px solid #ededed;
+  background-color: #fafafa;
+}
+
+.header .angle-left {
+  text-align: left;
+}
+
+.header .refresh-right,
+.byline .ellipsis-col,
+.icon-container .bookmark-col {
+  text-align: right;
+}
+
+.byline {
+  display: block;
+  padding: 10px;
+  height: 28px;
+}
+
+.header h1 {
+  font-size: 1rem;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 400;
+}
+
+.image-section {
+  background-image: url(assets/food.png);
+  background-size: cover;
+  background-position: center;
+  height: 360px;
+}
+
+.image-section img {
+  display: none;
+}
+
+.avatar-column {
+  width: 13%;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.avatar img {
+  width: 100%;
+}
+
+.user-name {
+  text-align: left;
+}
+.user-name a {
+  color: #2d2d2d;
+  font-size: 0.65rem;
+  text-decoration: none;
+}
+
+.user-name h2 {
+  text-align: left;
+  padding: 4px 0px 0px 0px;
+  margin: 0px;
+  font-size: 0.85rem;
+  line-height: 0.65rem;
+  font-weight: 700;
+}
+
+.icon-container {
+  height: 22px;
+  padding: 10px;
+}
+
+.icon-container .col-1 {
+  width: 10%;
+  text-align: left;
+}
+
+.comments-section {
+  text-align: left;
+  padding: 0px 10px;
+  margin-bottom: 5px;
+}
+
+.comments-section h5 {
+  margin: 0px 0px 5px 0px;
+  padding: 0px;
+}
+
+.comments-section .comment-item {
+  font-size: 0.85rem;
+}
+
+.comments-section .comment-name {
+  display: inline-block;
+  font-weight: 700;
+}
+
+.footer {
+  border: 0px;
+}
+
+.footer .col-2 {
+  width: 20%;
+}
 
 
 /* --- YOUR CODE ENDS HERE --- */
